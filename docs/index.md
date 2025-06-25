@@ -8,6 +8,11 @@
 
 [👩‍🦽 A-AIE: Accessibility, inclusion & exclusion](A-AIE.md)
 
+**B. From accessibility to inclusiveness**
+
+[⚗️ B-IDP: Inclusive development pipeline](B-IDP.md)
+
+
 **D. Designing inclusive and accessible software**
 
 [🎨 D-IDE: Inclusive design 101](D-IDE.md)
