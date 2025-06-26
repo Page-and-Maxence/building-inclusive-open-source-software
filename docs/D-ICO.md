@@ -1,4 +1,4 @@
-# 👩‍💻 E-ICO Inclusive code 101
+# 👩‍💻 D-ICO Inclusive code 101
 
 
     This module provides general information needed for building accessible code on
@@ -10,7 +10,7 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [C-API We are all disabled and unique : accessibility, plurality and intersectionality](C-API.md)
+**📚 Prerequisites**: [B-API We are all disabled and unique : accessibility, plurality and intersectionality](B-API.md)
 
 ---
 
@@ -140,7 +140,7 @@ What can be automated is a tricky question. As we stated previously, inclusivene
 
 **Therefore, no amount of checklists and tests in CI can replace feedback and testing from diverse user groups.**
 
-That said, a few things can be set to try and automatically detect as much issue as possible. If your app is a web-view, this will be very easy and convenient. You can go to the [E-ETD Accessible technologies Desktop](E-ATD.md) module for more information.
+That said, a few things can be set to try and automatically detect as much issue as possible. If your app is a web-view, this will be very easy and convenient. You can go to the [D-ITD Inclusiveness technologies Desktop](D-ITD.md) module for more information.
 
 If you app is native, you can set-up your CI to detect missing accessibility labels on focusable elements and setup a test that navigate through all od the elements of a view using the keyboard, checking that none of them wasn’t reached.
 

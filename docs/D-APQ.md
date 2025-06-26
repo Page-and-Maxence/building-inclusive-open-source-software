@@ -1,4 +1,4 @@
-# 📗 E-APQ Accessible programming with Qt
+# 📗 D-APQ Accessible programming with Qt
 
 
     This module provides information needed for building accessible code using the Qt
@@ -10,12 +10,12 @@
 
 **⏱️ ️Duration**: 10'
 
-**📚 Prerequisites**: [👩‍💻 E-ICO Inclusive code 101](E-ICO.md)
+**📚 Prerequisites**: [👩‍💻 D-ICO Inclusive code 101](D-ICO.md)
 
 ---
 
 # When to use ?
-Go through this module if your app uses Qt, or if you consider using it for your app. Please note that this module requires the trainee to follow [👩‍💻 E-ICO Inclusive code 101](E-ICO.md) first.
+Go through this module if your app uses Qt, or if you consider using it for your app. Please note that this module requires the trainee to follow [👩‍💻 D-ICO Inclusive code 101](D-ICO.md) first.
 
 # Description
 
@@ -39,7 +39,7 @@ Accessible.name: toolTipText
 Accessible.description: JamiStrings.qrCodeExplanation
 ```
 
-For many elements, like a message for example, you would want the accessibility to be grouped in ways that are not as obvious as the example above. Let's say that we want to design it for our chat-view. We only want the message to be focusable and it should contain all the information needed. In the [🎨 D-IDE: Inclusive design 101](D-IDE.md) module, we stated that the label should read something like:
+For many elements, like a message for example, you would want the accessibility to be grouped in ways that are not as obvious as the example above. Let's say that we want to design it for our chat-view. We only want the message to be focusable and it should contain all the information needed. In the [🎨 C-IDE: Inclusive design 101](C-IDE.md) module, we stated that the label should read something like:
 
     "Michel Berger. 3 unread messages. You said : Thanks ! at 9:07.
     Message status : sent. Pinned. Actions available.”
@@ -60,7 +60,7 @@ The code producing an implementation close to this one would be :
 ```
 ## Keyboard navigation
 
-As stated in [👩‍💻 E-ICO Inclusive code 101](E-ICO.md), keyboard and focus navigation is mostly automatically set by Qt, but the framework often fails to navigate complex elements. **You need to make sure that all focusable elements are reached**. Before manually setting keyboard navigation, you should try and use the base focus property of Qt. For example, setting the focus of a component to true might be enough for Qt to recognize it as a reachable interactive element. These will largely depend of the component you will be working on but you will get used to seeing some of the following variables.
+As stated in [👩‍💻 D-ICO Inclusive code 101](D-ICO.md), keyboard and focus navigation is mostly automatically set by Qt, but the framework often fails to navigate complex elements. **You need to make sure that all focusable elements are reached**. Before manually setting keyboard navigation, you should try and use the base focus property of Qt. For example, setting the focus of a component to true might be enough for Qt to recognize it as a reachable interactive element. These will largely depend of the component you will be working on but you will get used to seeing some of the following variables.
 
 ```QML
     keyNavigationEnabled: true
@@ -86,7 +86,7 @@ KeyNavigation.up: KeyNavigation.backtab
 KeyNavigation.down: KeyNavigation.tab
 ```
 
-Regarding our chat view, we previously stated in [🎨 D-IDE: Inclusive design 101](D-IDE.md) that "*we would typically focus the last element of the discussion first, because it is typically the one of interest, and because it gives a quick access to the text input. But this is clearly a design choice that must be well-thought and tested in the context of your app.*" This is only one of the many possible implementations. We could also want to send users directly to the text stating the current discussion's name.
+Regarding our chat view, we previously stated in [🎨 C-IDE: Inclusive design 101](C-IDE.md) that "*we would typically focus the last element of the discussion first, because it is typically the one of interest, and because it gives a quick access to the text input. But this is clearly a design choice that must be well-thought and tested in the context of your app.*" This is only one of the many possible implementations. We could also want to send users directly to the text stating the current discussion's name.
 
 Inside the list of messages, we could want users to navigate between elements using the arrows and TAB to directly go to the text input field - but once again, this is a design choice.
 ```cpp

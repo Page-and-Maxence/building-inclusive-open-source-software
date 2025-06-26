@@ -12,7 +12,7 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [👩‍💻 E-ICO Inclusive code 101](E-ICO.md)
+**📚 Prerequisites**: [👩‍💻 D-ICO Inclusive code 101](D-ICO.md)
 
 ---
 

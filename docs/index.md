@@ -9,25 +9,27 @@
 [👩‍🦽 A-AIE: Accessibility, inclusion & exclusion](A-AIE.md)
 
 
-**C. From accessibility to inclusiveness**
+**B. From accessibility to inclusiveness**
 
-[🫂 C-WDU We are all disabled and unique : accessibility, plurality and intersectionality](C-WDU.md)
-
-
-**D. Designing inclusive and accessible software**
-
-[🎨 D-IDE: Inclusive design 101](D-IDE.md)
+[🫂 B-WDU We are all disabled and unique : accessibility, plurality and intersectionality](B-WDU.md)
 
 
-**E. Programming inclusive and accessible software**
+**C. Designing inclusive and accessible software**
 
-[👩‍💻 E-ICO Inclusive code 101](E-ICO.md)
+[🎨 C-IDE: Inclusive design 101](C-IDE.md)
 
-[🔧 E-ITD: Inclusiveness technologies : Desktop](E-ITD.md)
+[🖥️ C-IDD Inclusive design for Desktop](C-IDD.md)
 
 
-**F. To conclude and go further**
+**D. Programming inclusive and accessible software**
 
-[💬 F-CLS: Collective sharing](F-CLS.md)
+[👩‍💻 D-ICO Inclusive code 101](D-ICO.md)
 
-[🏃🏽‍♀️‍➡️ F-WYG: Where YOU go next !](F-WYG.md)
+[🔧 D-ITD: Inclusiveness technologies : Desktop](D-ITD.md)
+
+
+**E. To conclude and go further**
+
+[💬 E-CLS: Collective sharing](E-CLS.md)
+
+[🏃🏽‍♀️‍➡️ E-WYG: Where YOU go next !](E-WYG.md)
