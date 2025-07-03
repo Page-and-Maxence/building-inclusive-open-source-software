@@ -61,7 +61,7 @@ nav:
     - 📗 Accessible programming with Qt: E-APQ.md
     #- ☕️ Accessible programming with Java Fx:
     #- 🤖 Accessible programming for Android:
-    # - 🕸️ Accessible web programming: 
+    #- 🕸️ Accessible web programming:
   - To conclude and go further:
     #- 🎯 Conclusion, bibliography and useful resources:
     - 🏃🏽‍♀️‍➡️ Where YOU go next !: F-WYG.md
@@ -69,6 +69,6 @@ nav:
 
 markdown_extensions:
   - admonition
-  
+
 extra_css:
   - stylesheets/extra.css
