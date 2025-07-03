@@ -1,0 +1,104 @@
+[data-md-color-scheme="custom-light"] {
+
+  /* PRIMARY */
+  --md-primary-fg-color:        #6E468B;
+  --md-primary-fg-color--light: #6E468B;
+  --md-primary-fg-color--dark:  #6E468B;
+
+  --md-primary-bg-color:        #FFFFFF;
+  --md-primary-bg-color--light: #FFFFFF;
+  --md-primary-bg-color--dark:  #FFFFFF;
+
+  --md-code-fg-color:           hsla(200, 18%, 26%, 1);
+  --md-code-bg-color:           hsla(200, 0%, 96%, 1);
+
+  /* ACCENT */
+  --md-accent-fg-color:         #6E468B;
+  --md-accent-bg-color:         #6E468B;
+
+  /* DEFAULT FG & BG */
+  --md-default-fg-color:               #000000;
+  --md-default-fg-color--light:        #000000;
+  --md-default-fg-color--lighter:      #AAAAAA;
+  --md-default-fg-color--lightest:     #CCCCCC;
+  --md-default-bg-color:               #FFFFFF;
+  --md-default-bg-color--light:        #FFFFFF;
+  --md-default-bg-color--lighter:      #FFFFFF;
+  --md-default-bg-color--lightest:     #FFFFFF;
+
+
+  /* TYPESET */
+  --md-typeset-color:                  #000000;
+  --md-typeset-a-color:                #000000;
+  --md-typeset-del-color:              #000000;
+  --md-typeset-ins-color:              #000000;
+  --md-typeset-kbd-color:              #000000;
+  --md-typeset-kbd-accent-color:       #000000;
+  --md-typeset-kbd-border-color:       #000000;
+  --md-typeset-mark-color:             #000000;
+  --md-typeset-table-color:            #000000;
+  --md-typeset-table-color--light:     #000000;
+
+  /* FOOTER */
+  --md-footer-fg-color:                #000000;
+  --md-footer-fg-color--light:         #FFFFFF;
+  --md-footer-fg-color--lighter:       #BBBBBB;
+  --md-footer-bg-color:                #FFFFFF;
+  --md-footer-bg-color--dark:          #18101E;
+
+}
+
+
+[data-md-color-scheme="custom-dark"] {
+
+  /* PRIMARY */
+  --md-primary-fg-color:        #6E468B;
+  --md-primary-fg-color--light: #6E468B;
+  --md-primary-fg-color--dark:  #6E468B;
+
+  --md-primary-bg-color:        #FFFFFF;
+  --md-primary-bg-color--light: #FFFFFF;
+  --md-primary-bg-color--dark:  #FFFFFF;
+
+  --md-code-fg-color:           hsla(200, 0%, 96%, 1);
+  --md-code-bg-color:           hsla(200, 18%, 26%, 1);
+
+  /* ACCENT */
+  --md-accent-fg-color:         #C084FF;
+  --md-accent-bg-color:         #C084FF;
+
+  /* DEFAULT FG & BG */
+  --md-default-fg-color:               #FFFFFF;
+  --md-default-fg-color--light:        #FFFFFF;
+  --md-default-fg-color--lighter:      #AAAAAA;
+  --md-default-fg-color--lightest:     #CCCCCC;
+  --md-default-bg-color:               #18101E;
+  --md-default-bg-color--light:        #18101E;
+  --md-default-bg-color--lighter:      #18101E;
+  --md-default-bg-color--lightest:     #18101E;
+
+  /*  Admonition color shades */
+  --md-admonition-fg-color:            var(--md-default-fg-color);
+  --md-admonition-bg-color:            #18101E;
+
+  /* TYPESET */
+  --md-typeset-color:                  #FFFFFF;
+  --md-typeset-a-color:                #FFFFFF;
+  --md-typeset-del-color:              #FFFFFF;
+  --md-typeset-ins-color:              #FFFFFF;
+  --md-typeset-kbd-color:              #FFFFFF;
+  --md-typeset-kbd-accent-color:       #FFFFFF;
+  --md-typeset-kbd-border-color:       #FFFFFF;
+  --md-typeset-mark-color:             #FFFFFF;
+  --md-typeset-table-color:            #FFFFFF;
+  --md-typeset-table-color--light:     #FFFFFF;
+
+  /* FOOTER */
+  --md-footer-fg-color:                #FFFFFF;
+  --md-footer-fg-color--light:         #FFFFFF;
+  --md-footer-fg-color--lighter:       #BBBBBB;
+  --md-footer-bg-color:                #18101E;
+  --md-footer-bg-color--dark:          #18101E;
+}
+
+
