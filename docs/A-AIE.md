@@ -163,7 +163,7 @@ Understanding those concepts are crucial to avoid very common misguided behavior
 
 [Loi accessibilité : cadre légal et obligations](https://www.info.gouv.fr/accessibilite/loi-accessibilite-cadre-legal-et-obligations)
 
-[Agile Accessibility Handbook](https://accessibility.deque.com/agile-accessibility-handbook)
+[Barrell Dylan. *Agile Accessibility Handbook*](https://accessibility.deque.com/agile-accessibility-handbook)
 
 [Definition of ableism](https://dictionary.cambridge.org/dictionary/english/ableism)
 

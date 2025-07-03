@@ -1,16 +1,16 @@
-# 👩‍💻 E-ICO Inclusive code 101
+# 👩‍💻 D-ICO Inclusive code 101
 
 !!! Info "In this module"
     This module provides general information needed for building accessible code on
     any platform or language.
 
-**⛳️ Section**: E. Programming inclusive and accessible software
+**⛳️ Section**: D. Programming inclusive and accessible software
 
 **👥 Audience**: Developers
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [C-WDU We are all disabled and unique : accessibility, plurality and intersectionality](C-WDU.md)
+**📚 Prerequisites**: [B-WDU We are all disabled and unique : accessibility, plurality and intersectionality](B-WDU.md)
 
 ---
 
@@ -44,10 +44,10 @@ For a more concrete example, on the left you can see a custom combo-box componen
 
 <div style="display: flex; justify-content: space-between;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src="../ressources/e-programming-inclusive-and-accessible-software/jamiComboBox.png" alt="Custom combo box">
+        <img src="../resources/d-programming-inclusive-and-accessible-software/jamiComboBox.png" alt="Custom combo box">
     </div>
     <div style="flex: 1; margin-left: 10px;">
-        <img src="../ressources/e-programming-inclusive-and-accessible-software/qtComboBox.png" alt="Native Qt combo-box">
+        <img src="../resources/d-programming-inclusive-and-accessible-software/qtComboBox.png" alt="Native Qt combo-box">
     </div>
 </div>
 
@@ -63,7 +63,7 @@ Accessibility and inclusiveness in programming have one key benefit : making you
 
 Let’s investigate that by taking a look at the most obviously broken component in Jami : the username info box tooltip (the small 'i' on the right).
 
-![Screenshot of the Jami account creation page showcasing the discussed tooltip](ressources/e-programming-inclusive-and-accessible-software/jamiToolTip.png)
+![Screenshot of the Jami account creation page showcasing the discussed tooltip](resources/d-programming-inclusive-and-accessible-software/jamiToolTip.png)
 
 It’s an “info box” (as called in the code), but a screen reader will handle it as a push button. That seems weird, as this is used as a tooltip, not a button allowing an action. Additionally, it doesn’t react well when selecting and unselecting the username text edit.
 
@@ -90,7 +90,7 @@ icon: PushButton {
 Another example would be the account selection list in Jami. It was not possible to navigate between the different items using the keyboard arrows making it non-usable from an accessibility standpoint.
 
 <p align="center">
-    <img src="../ressources/e-programming-inclusive-and-accessible-software/jamiAccountList.png" alt="Picture of the account list in Jami showing 4 different accounts." width="60%">
+    <img src="../resources/d-programming-inclusive-and-accessible-software/jamiAccountList.png" alt="Picture of the account list in Jami showing 4 different accounts." width="60%">
 </p>
 
 That’s an unexpected behavior as the best ListView Qt component (which our custom component is based on) supports this navigation method. A quick inspection of the code revealed those lines :
@@ -140,7 +140,8 @@ What can be automated is a tricky question. As we stated previously, inclusivene
 
 **Therefore, no amount of checklists and tests in CI can replace feedback and testing from diverse user groups.**
 
-That said, a few things can be set to try and automatically detect as much issue as possible. If your app is a web-view, this will be very easy and convenient. You can go to the [🔧 E-ITD Inclusiveness technologies Desktop](E-ITD.md) module for more information.
+That said, a few things can be set to try and automatically detect as much issue as possible. If your app is a web-view, this will be very easy and convenient. You can go to the [🔧 A-ITD Inclusiveness technologies Desktop](A-ITD.md) module for more information.
+
 
 If you app is native, you can set-up your CI to detect missing accessibility labels on focusable elements and setup a test that navigate through all od the elements of a view using the keyboard, checking that none of them wasn’t reached.
 
@@ -151,7 +152,7 @@ You can also use a template of a checklist containing the main elements to be so
 
 Remember : this **should not** be seen as a way to make your UI accessible, but rather to be sure you commit won't break any existing accessibility that was implemented. For new features, it is essential to design the UI with accessibility in mind from the very start.
 
-![Diagram showing an "A very basic accessibility checklist not to break anything when committing. This diagram is available in text format further down this page."](ressources/e-programming-inclusive-and-accessible-software/inclusivenessChecklist.png)
+![Diagram showing an "A very basic accessibility checklist not to break anything when committing. This diagram is available in text format further down this page."](resources/d-programming-inclusive-and-accessible-software/inclusivenessChecklist.png)
 
 **The diagram in text format:**
 
@@ -218,10 +219,10 @@ From here, you might want to take a look at some of our modules about inclusive 
 
 # Resources
 
-[QuickInclusivenessCheck.excalidraw](ressources/e-programming-inclusive-and-accessible-software/quickInclusivenessCheck.excalidraw)
+[QuickInclusivenessCheck.excalidraw](resources/d-programming-inclusive-and-accessible-software/quickInclusivenessCheck.excalidraw)
 
 [WAVE Accessibility tool](https://wave.webaim.org/)
 
 # Sources
 
-[Agile Accessibility Handbook](https://accessibility.deque.com/agile-accessibility-handbook)
+[Barrell Dylan. *Agile Accessibility Handbook*](https://accessibility.deque.com/agile-accessibility-handbook)

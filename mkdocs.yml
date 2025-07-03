@@ -43,32 +43,33 @@ nav:
     - 🫳🏿 Feeling the need for accessibility: A-FNA.md
     - 👩‍🦽 Accessibility & Ableism: A-AIE.md
     - 🗺️ Brief cartography of today’s accessibility landscape: A-BCT.md
-    #- 🔧 Accessibility technologies - Desktop:
+    - 🔧 Inclusiveness technologies Desktop: A-ITD.md
     #- 📲 Accessibility technologies - mobile:
   - From accessibility to inclusiveness:
-    - 🫂 We are all disabled and unique: C-WDU.md
+    - 🫂 We are all disabled and unique: B-WDU.md
     #- 🏛️ Why does FOSS struggle with inclusiveness?:
     - 🔭 Inclusiveness needs overview: B-INO.md
     - 🤺 Developer stance & user collaboration: B-DSU.md
+    - ⚗️ Bring inclusiveness and accessibility to your pipeline: B-IAP.md
     #- 🧬 Bring inclusiveness to your pipeline:
   - Designing inclusive and accessible software:
-    - 🎨 Inclusive design 101: D-IDE.md
+    - 🎨 Inclusive design 101: C-IDE.md
+    - 🖥️ Inclusive design for Desktop: C-IDD.md
     #- 📱 Inclusive design for Mobile:
-    - 🖥️ Inclusive design for Desktop: E-ITD.md
   - Programming inclusive and accessible software:
-    - 👩‍💻 Inclusive code 101: E-ICO.md
+    - 👩‍💻 Inclusive code 101: D-ICO.md
     #- 🍎 Accessible programming for the Apple ecosystem:
-    - 📗 Accessible programming with Qt: E-APQ.md
+    - 📗 Accessible programming with Qt: D-APQ.md
     #- ☕️ Accessible programming with Java Fx:
     #- 🤖 Accessible programming for Android:
-    # - 🕸️ Accessible web programming: 
+    # - 🕸️ Accessible web programming:
   - To conclude and go further:
     #- 🎯 Conclusion, bibliography and useful resources:
-    - 🏃🏽‍♀️‍➡️ Where YOU go next !: F-WYG.md
-    - 💬 Collective sharing: F-CLS.md
+    - 🏃🏽‍♀️‍➡️ Where YOU go next !: E-WYG.md
+    - 💬 Collective sharing: E-CLS.md
 
 markdown_extensions:
   - admonition
-  
+
 extra_css:
   - stylesheets/extra.css

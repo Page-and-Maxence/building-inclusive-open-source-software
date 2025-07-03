@@ -1,4 +1,4 @@
-# 🔧 E-ITD Inclusiveness technologies : Desktop
+# 🔧 A-ITD Inclusiveness technologies : Desktop
 
 !!! Info "In this module"
     This module gives a comprehensive list of accessibility testing tools (both
@@ -6,13 +6,13 @@
     but rather to help designers and developers to find the relevant tools for
     their use case.
 
-**⛳️ Section**: E. Programming inclusive and accessible software
+**⛳️ Section**: D. Programming inclusive and accessible software
 
 **👥 Audience**: Developers
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [👩‍💻 E-ICO Inclusive code 101](E-ICO.md)
+**📚 Prerequisites**: [👩‍💻 D-ICO Inclusive code 101](D-ICO.md)
 
 ---
 
@@ -99,7 +99,7 @@ It still has an active community developing plugins for integrating it into diff
 
 You can easily find a [complete list of shortcuts for NVDA](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts).
 
-![The welcome to NVDA popup appearing when launching the program.](ressources/e-programming-inclusive-and-accessible-software/welcomeToNVDA.png)
+![The welcome to NVDA popup appearing when launching the program.](resources/d-programming-inclusive-and-accessible-software/welcomeToNVDA.png)
 
 ### Jaws
 <div align="center">
@@ -141,7 +141,7 @@ You can easily find a [complete list of shortcuts for NVDA](https://dequeunivers
 
 That's why we recommend NVDA.
 
-![The Jaws pricing. The purchase price is 1548 dollars for a perpetual license or 623 dollars per year for a subscription](ressources/e-programming-inclusive-and-accessible-software/jawsPricing.png)
+![The Jaws pricing. The purchase price is 1548 dollars for a perpetual license or 623 dollars per year for a subscription](resources/d-programming-inclusive-and-accessible-software/jawsPricing.png)
 
 ### VoiceOver for macOS
 
@@ -224,7 +224,7 @@ Here you can see an example of a poorly described object tree in Jami.
 
 
 
-![A screenshot of Accessible Insight for Windows. It shows the application and the object tree hierarchy of a button.](ressources/e-programming-inclusive-and-accessible-software/accessibilityInsightScreenshot.png)
+![A screenshot of Accessible Insight for Windows. It shows the application and the object tree hierarchy of a button.](resources/d-programming-inclusive-and-accessible-software/accessibilityInsightScreenshot.png)
 
 
 ---
@@ -267,11 +267,11 @@ Here you can see an example of a poorly described object tree in Jami.
 
 While you might be working on a native app, it’s very likely that you or your organization have a website along with it. Wave is a very convenient way to check if you’re also up to date on that end without necessitating further knowledge.
 
-![A screenshot of the wave accessibility tool on a main page of a website. It detected an empty button.](ressources/e-programming-inclusive-and-accessible-software/waveReportMainPage.png)
+![A screenshot of the wave accessibility tool on a main page of a website. It detected an empty button.](resources/d-programming-inclusive-and-accessible-software/waveReportMainPage.png)
 
 Still be careful not to believe blindly the feedback form automated tools lke Wave. **It will often make mistakes** and is not a substitute for *savoir-faire* in any way.
 
-![A screenshot of the wave accessibility tool showing detailed report about multiple errors on a webpage](ressources/e-programming-inclusive-and-accessible-software/waveReport.png)
+![A screenshot of the wave accessibility tool showing detailed report about multiple errors on a webpage](resources/d-programming-inclusive-and-accessible-software/waveReport.png)
 
 Some other similar web accessibility tools would be [Axe](https://www.deque.com/axe/) or [Lighthouse](https://developer.chrome.com/docs/lighthouse?hl=fr).
 

@@ -1,5 +1,6 @@
 # ⚗️ B-IAP: Bring inclusiveness and accessibility to your pipeline
 
+!!! Info "In this module"
     This module gives guidelines and advice on how to incorporate inclusiveness into your organization's workflows.
 
 **⛳️ Section**: A. What is accessibility ?
@@ -28,13 +29,13 @@ When coming up with a new feature for your app, ask yourself: what are some poss
 
 <p align="center"><strong>2. Make it a goal for your designs</strong></p>
 
-Good design is inclusive. And good design benefits everyone. To get concrete insights about what's an inclusive design, check out the [🎨 D-IDE: Inclusive design 101](D-IDE.md) module.
+Good design is inclusive. And good design benefits everyone. To get concrete insights about what's an inclusive design, check out the [🎨 C-IDE: Inclusive design 101](C-IDE.md) module.
 
 <p align="center"><strong>3. Iterate on implementation</strong></p>
 
 Inclusiveness is a process. You will probably not get it right the first time. Testing and tweaking the experience until you reach a result you are satisfied with can take time.
 
-We provide some detailed implementation advice in [👩‍💻 E-ICO Inclusive code 101](E-ICO.md).
+We provide some detailed implementation advice in [👩‍💻 D-ICO Inclusive code 101](D-ICO.md).
 
 <p align="center"><strong>4. Test</strong></p>
 

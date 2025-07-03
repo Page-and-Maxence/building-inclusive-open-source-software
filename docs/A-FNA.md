@@ -47,17 +47,17 @@ This section will mainly be based on the the [WebAIM Million 2025 report on the 
 
 Their graph depict the evolution of the average number of detectable errors for home pages.  Failures typically include missing labels, low contrast text or missing alternative captions for images.
 
-![A graph showcasing the number of accessible per home page over time. It's steady around 50 to 60.](ressources/A-WhatIsAccessibility/errorsPerPage.png)
+![A graph showcasing the number of accessible per home page over time. It's steady around 50 to 60.](resources/a-what-is-accessibility/errorsPerPage.png)
 
 Home pages tend to get more and more complex. While some websites are getting more accessible, those who don’t tackle the issue tend to get even worse. Examples of greatly accessible websites are rare. Indeed, “**94.8% of home pages had detected [WCAG 2](https://webaim.org/standards/wcag/checklist) failures.”**
 
-![A graph showcasing the number of elements per home page over time. It's increasing steadily.](ressources/A-WhatIsAccessibility/complexityWebPageGraph.png)
+![A graph showcasing the number of elements per home page over time. It's increasing steadily.](resources/a-what-is-accessibility/complexityWebPageGraph.png)
 
 On this graph coming from the same study, you can see the evolution of the number of elements on home pages has been increasingly steadily over the past few years.
 
 You might be wondering, what are the most common accessibility shortcomings detected ? This chart is a good starting point to tackle the most obvious issues that our applications and websites might have.
 
-![A graph showcasing the most common accessibility issues detected. In order: low contrast text, missing alt text, missing labels, empty links, empty buttons, missing language.](ressources/A-WhatIsAccessibility/commonAccessibilityFailure.png)
+![A graph showcasing the most common accessibility issues detected. In order: low contrast text, missing alt text, missing labels, empty links, empty buttons, missing language.](resources/a-what-is-accessibility/commonAccessibilityFailure.png)
 
 ## 4. Wrapping up
 

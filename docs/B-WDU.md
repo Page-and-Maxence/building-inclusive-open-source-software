@@ -1,9 +1,9 @@
-# 🫂 C-WDU We are all disabled and unique : accessibility, plurality and intersectionality
+# 🫂 B-WDU We are all disabled and unique : accessibility, plurality and intersectionality
 
 !!! Info "In this module"
     We will explore the concepts of intersectionality and inclusiveness and it’s use in software development
 
-**⛳️ Section**: D. Designing inclusive and accessible software
+**⛳️ Section**: B. From accessibility to inclusiveness
 
 **👥 Audience**: Designers
 
@@ -69,7 +69,7 @@ It’s actually very useful, for two main reasons !
 
 Take for example this main account creation page. If you ask someone that you know with vision to test it or do it yourself you probably won't find any issue. Can you guess what kind of users can have trouble with it.
 
-![A screenshot of an account creation page with a Create Jami account button, a I already have an account button, an Advanced features button, an about Jami button, a user interface language combobox, a back arrow button and a logo.](ressources/B-HowToStartIncroporatingAccessibility/jamiAccountCreationPage.png)
+![A screenshot of an account creation page with a Create Jami account button, a I already have an account button, an Advanced features button, an about Jami button, a user interface language combobox, a back arrow button and a logo.](resources/b-how-to-start-incroporating-accessibility/jamiAccountCreationPage.png)
 
 This one was hard and required a lot of intuition. The "user interface language" label and the actual combo box looks like two separate elements, because they are, making them inaccessible as is with keyboard navigation. If you speak a niche language and are low vision you cannot access the combobox to change it to a language that you speak.
 
@@ -79,7 +79,7 @@ This can be fixed by adapting to your system language dynamically.
 
 Another intersectional example is presented to us by Apple in their [The practice of inclusive design](https://developer.apple.com/videos/play/wwdc2021/10275/) video. They encountered this issue when developing a system capable of automatically generate descriptions of images for low vision users using a generative AI models. Can you guess what it is?
 
-![The accessible text of the previous image of this page (the account creation page) as seen in the markdown](ressources/B-HowToStartIncroporatingAccessibility/accessibleDescription.png)
+![The accessible text of the previous image of this page (the account creation page) as seen in the markdown](resources/b-how-to-start-incroporating-accessibility/accessibleDescription.png)
 *The accessible text of the previous image of this page (the account creation page) as seen in the markdown*
 
 The model generating descriptions had the tendency to assign gender to people on the images it was captioning, therefore regularly misgendering cis, trans and especially non-binary people. This issue encountered by those at the intersection of the low vision and queer community prevented them from affirming their identity and feel welcome.

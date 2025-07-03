@@ -1,12 +1,11 @@
-# 💬 F-CLS: Collective sharing
+# 💬 E-CLS: Collective sharing
 
 !!! Info "In this module"
     This module allows participants to reflect on what they learned,
     throughout the training and from others. Depending on the situation, it can come
     in various forms of different durations.
 
-**⛳️ Section**: F. To conclude and go further
-
+**⛳️ Section**: E. To conclude and go further
 **👥 Audience**: Everyone
 
 **⏱️ ️Duration**: 20'
@@ -43,7 +42,7 @@ Each participant (including the trainer) gets a copy of the boat drawing found i
 
 For the second option, you can use this illustration of Mathilde Riou and Vincent Chaillou :
 
-![Drawing of a boat with various characters in different positions. Refer to the alternative list below for a full description.](ressources/f-to-conclude-and-go-further/togetherOnABoat.png)
+![Drawing of a boat with various characters in different positions. Refer to the alternative list below for a full description.](resources/e-to-conclude-and-go-further/togetherOnABoat.png)
 
 If one or many trainees are blind or have low vision, you can use this alternative list of characters on the ship:
 
