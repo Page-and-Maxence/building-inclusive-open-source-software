@@ -26,6 +26,7 @@ Please note that we are not accessibility or inclusiveness experts, but passiona
 
 If at any point through your reading, you find some mistakes or missing information, **please let us know** by opening an issue or a pull request. We will be happy to review it and incorporate it to the project. We will also be happy to integrate any new module you would like to write.
 
+
 To run the project locally :
 
 - Clone the repository

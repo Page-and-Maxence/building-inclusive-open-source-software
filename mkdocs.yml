@@ -36,6 +36,12 @@ theme:
         icon: material/weather-night
         name: Switch to system preference
 
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+
 nav:
   - Home: index.md
   - What is accessibility?:
@@ -43,8 +49,8 @@ nav:
     - 🫳🏿 Feeling the need for accessibility: A-FNA.md
     - 👩‍🦽 Accessibility & Ableism: A-AIE.md
     - 🗺️ Brief cartography of today’s accessibility landscape: A-BCT.md
-    #- 🔧 Accessibility technologies - Desktop:
-    #- 📲 Accessibility technologies - mobile:
+    - 🔧 Accessibility technologies - Desktop: A-ATD.md
+    - 📲 Accessibility technologies - mobile: A-ATM.md
   - From accessibility to inclusiveness:
     - 🫂 We are all disabled and unique: C-WDU.md
     #- 🏛️ Why does FOSS struggle with inclusiveness?:
@@ -53,8 +59,8 @@ nav:
     - 🧬 Bring inclusiveness to your pipeline: B-IAP.md
   - Designing inclusive and accessible software:
     - 🎨 Inclusive design 101: D-IDE.md
-    #- 📱 Inclusive design for Mobile:
-    - 🖥️ Inclusive design for Desktop: E-ITD.md
+    - 📱 Inclusive design for Mobile: D-IDM.md
+    #- 🖥️ Inclusive design for Desktop: D-ITD.md
   - Programming inclusive and accessible software:
     - 👩‍💻 Inclusive code 101: E-ICO.md
     #- 🍎 Accessible programming for the Apple ecosystem:
@@ -67,8 +73,5 @@ nav:
     - 🏃🏽‍♀️‍➡️ Where YOU go next !: F-WYG.md
     - 💬 Collective sharing: F-CLS.md
 
-markdown_extensions:
-  - admonition
-  
 extra_css:
   - stylesheets/extra.css
